@@ -1,16 +1,17 @@
 # Ori Notebook releases
 
-Download and self-update artifacts for [Ori Notebook](https://ori.dorsr.com),
+Download and self-update artifacts for [Ori Notebook](https://orinotebook.com),
 the local-first notebook. Notes are plain Markdown files in a folder you own.
 
-**The friendly download page is [ori.dorsr.com/download](https://ori.dorsr.com/download).**
+**The friendly download page is [orinotebook.com/download](https://orinotebook.com/download).**
 This repo is the artifact shelf behind it.
 
 ## Linux
 
-- [Ori-Notebook-x86_64.AppImage](https://github.com/dor-sr/ori-notebook-releases/releases/latest/download/Ori-Notebook-x86_64.AppImage)
-  is the recommended install: one portable file, updates itself from inside the app.
-- A `.deb` for Debian and Ubuntu ships with every release under
+- Current Linux installers are under the [latest release](https://github.com/dor-sr/ori-notebook-releases/releases/latest).
+  Choose `Ori-Notebook-x86_64.AppImage` when it is listed; it is one portable file
+  and updates itself from inside the app.
+- A `.deb` for Debian and Ubuntu ships under
   [Releases](https://github.com/dor-sr/ori-notebook-releases/releases); it updates by
   installing the newer `.deb`.
 
@@ -32,7 +33,8 @@ Not built yet. It follows once the Windows release clears certification.
 
 ## Versions and updates
 
-- The version-less asset names above always point at the newest complete release.
+- Release-page URLs remain stable across versions. Direct artifact aliases work only
+  when that exact filename is attached to the latest release.
 - Installed apps check for updates on launch and every few hours, verify the
   update signature, and show a "Restart to update" prompt.
 - Found a problem? [Open an issue](https://github.com/dor-sr/ori-notebook-releases/issues).
